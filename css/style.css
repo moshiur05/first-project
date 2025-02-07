@@ -17,12 +17,9 @@ h1,h2,h3,h4,h5,h6,span,div,nav,header,ul,ol{
 	padding: 0;
 }
 
-body{
-
 /*	font-family: "Oswald", sans-serif; 
 /*	font-family: "Open Sans", sans-serif; */
 
-}
 .welcome p{
 	color: white;
 }
@@ -578,9 +575,6 @@ position: relative;
 footer{
 	background-color: black;
 	padding-top: 20px;
-}
-.footer_logo{
-	text-align:;
 }
 .footer_content{
 	color: #fff;
