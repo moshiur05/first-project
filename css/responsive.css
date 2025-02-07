@@ -1,0 +1,169 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+@media(min-width:320px)and (max-width:575px){
+
+.welcome p{
+	text-align: center;
+	font-size: 9px;
+}
+.header_icon ul li {
+    padding: 2px 6px;
+}
+.bannar_content{
+	text-align: center;
+}
+
+.service{
+	margin-top:50px;
+}
+
+.ser_icon {
+   left: 36%;   
+}
+
+.big_images{
+	margin-bottom: 10px;
+}
+
+.portfolio_img{
+	margin-bottom: 20px; 
+}
+
+.test_tri {
+    left: 42%;
+    
+}
+
+.test_img{
+	margin-top: 20px;
+}
+
+/*footer part css start*/
+.footer_logo,
+.footer_content,
+.footer_common_heading{
+	text-align: center;
+}
+.footer_menu{
+	text-align: center;
+}
+
+/*footer part css end*/
+
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)and (max-width:767px) { 
+
+.ser_icon {
+   left: 42%;   
+}
+
+.service{
+	margin-top:50px;
+}
+.portfolio_img{
+	margin-bottom: 25px;
+}
+
+.test_tri {
+    left: 42%;
+   
+}
+/*footer part css start*/
+.footer_logo,
+.footer_content,
+.footer_common_heading{
+	text-align: center;
+}
+.footer_menu{
+	text-align: center;
+}
+.footer_icon{
+	margin-left: 70px;
+}
+.footer_number{
+	margin-left: 70px;
+}
+
+/*footer part css end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px)and (max-width:991px) { 
+	/*footer part css start*/
+.footer_logo,
+.footer_content,
+.footer_common_heading{
+	text-align: center;
+}
+.footer_menu{
+	text-align: left;
+}
+.footer_content p{
+	font-size: 11px;
+}
+
+.footer_icon a {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.footer_number p{
+	font-size: 11px;
+	margin-right: 7px;
+}
+.footer_menu a{
+font-size: 11px;
+}
+.footer_icon{
+	margin-right: 7px;
+}
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)and (max-width:1199px) {
+
+/*footer part css start*/
+.footer_logo,
+.footer_content,
+.footer_common_heading{
+	text-align: center;
+}
+.footer_menu{
+	text-align: left;
+}
+.footer_icon{
+	margin-left:10px;
+}
+.footer_number{
+	margin-left: 0px;
+}
+
+.footer_icon a {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.footer_number p{
+	font-size: 13px;
+}
+
+/*footer part css end*/
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+/**/
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
